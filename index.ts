@@ -2,7 +2,9 @@
 import './style.css';
 
 class DanePogodowe {
-  constructor(public title: string) {}
+  constructor(public title: string) {
+    this.title = title
+  }
 
 
     pobierzTemperature(): string {
@@ -20,3 +22,11 @@ class DanePogodowe {
   }
 
 }
+
+
+let message: string = "I know your password, bro!"
+let show = (message: string): void => {
+ console.log(message)
+}
+
+show(message) /*?*/ //undefined
