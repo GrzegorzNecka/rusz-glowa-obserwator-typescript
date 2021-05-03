@@ -27,7 +27,6 @@ class DanePogodowe {
   }
 }
 
-// let message: string = "I know your password, bro!";
 // let show = (message: string): void => {
 //   console.log(message);
 // };
